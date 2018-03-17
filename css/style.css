@@ -1,0 +1,125 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.status-bar {
+  background-image: url(../images/Base.png);
+  width: 375px;
+  height: 20px;
+  position: sticky;
+}
+
+.nav {
+  height: 10%;
+  margin-top: 15px;
+  position: sticky;
+}
+
+.title {
+  font-family: 'ABeeZee';
+  font-size: 26px;
+  height: 60px;
+  width: 375px;
+  padding-top: 15px;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.map {
+  background-image: url(../images/Roads.png) ;
+  height: 319px;
+  width: 375px;
+  position: sticky;
+}
+
+.container {
+  background-color: #F8F8F8;
+  width: 375px;
+  height: 667px;
+  margin: auto;
+}
+
+.arrow-left {
+  background-image: url(../images/arrow_left.png);
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 12.27px;
+  margin-top: 15px;
+  float: left;
+  margin-left: 20px;
+}
+
+.header {
+  font-family: 'ABeeZee';
+  font-size: 14px;
+  margin-top: 5%;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.header2 {
+  font-family: 'ABeeZee';
+  color: #FF3B30;
+  font-size: 14px;
+  margin-top: 5%;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+  font-family: 'ABeeZee';
+  font-size: 14px;
+  list-style-type: none;
+  display: inline-block;
+  width: 12%;
+  height: 25px;
+  margin-top: 8px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: .1px solid black;
+}
+
+.middle {
+  float: left;
+  font-family: 'ABeeZee';
+  font-size: 14px;
+  list-style-type: none;
+  display: inline-block;
+  width: 40%;
+  height: 25px;
+  margin-top: 8px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: .1px solid black;
+}
+
+.right {
+  float: left;
+  font-family: 'ABeeZee';
+  font-size: 14px;
+  list-style-type: none;
+  display: inline-block;
+  width: 35%;
+  height: 25px;
+  margin-top: 8px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: .1px solid black;
+}
+
+.fa-chevron-right {
+  float: right;
+  font-style: normal;
+  display: inline-block;
+  padding-top: 12px;
+  padding-right: 15px;
+}
+
+.route-data {
+  width: 375px;
+  height: 259px;
+  background-color: #F8F8F8;
+  overflow: scroll;
+}
