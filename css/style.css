@@ -46,7 +46,7 @@
   width: 20px;
   margin-top: 5px;
   float: left;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .header {
@@ -78,7 +78,7 @@
   margin-left: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-bottom: .1px solid black;
+  border-bottom: .5px solid #BCBBC1;
 }
 
 .middle {
@@ -92,7 +92,7 @@
   margin-top: 8px;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-bottom: .1px solid black;
+  border-bottom: .5px solid #BCBBC1;
 }
 
 .right {
@@ -101,20 +101,37 @@
   font-size: 14px;
   list-style-type: none;
   display: inline-block;
-  width: 35%;
+  width: 36%;
   height: 25px;
   margin-top: 8px;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-bottom: .1px solid black;
+  border-bottom: .5px solid #BCBBC1;
+}
+
+.right2 {
+  float: left;
+  font-family: 'ABeeZee';
+  font-size: 14px;
+  list-style-type: none;
+  display: inline-block;
+  width: 45%;
+  height: 25px;
+  margin-top: 8px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: .5px solid #BCBBC1;
 }
 
 .fa-chevron-right {
   float: right;
   font-style: normal;
   display: inline-block;
-  padding-top: 12px;
-  padding-right: 15px;
+  width: 13px;
+  padding-top: 9.5px;
+  padding-right: 35px;
+  padding-bottom: 12.5px;
+  border-bottom: .5px solid #BCBBC1;
 }
 
 .route-data {
